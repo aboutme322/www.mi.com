@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+input,
+fieldset,
+legend,
+img,
+select {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	cursor: pointer !important;
+	list-style: none;
+}
+
+a {
+	
+	cursor: pointer !important;
+	text-decoration: none !important;
+
+}
+
+
+
+a:active {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+img {
+	display: block;
+}
+
+body {
+	font-size: 14px;
+	font-family: Helvetica, arial, "MI Lan Pro", "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+}

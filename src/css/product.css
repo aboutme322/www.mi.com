@@ -1,0 +1,156 @@
+.say {
+  position: sticky;
+  top: 0;
+  height: 63px;
+  width: 100%;
+  margin-top: 0;
+  color: #616161;
+  border-top: 1px solid #cabcbc;
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+}
+.say > .banx {
+  width: 1226px;
+  height: 63px;
+  margin: 0 auto;
+}
+.say > .banx > h3 {
+  display: block;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #424242;
+  float: left;
+}
+.say > .banx > p {
+  float: right;
+  line-height: 60px;
+  color: #616161;
+}
+.biao-main {
+  width: 1226px;
+  height: 584px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 12px;
+}
+.biao-main > .b_left {
+  float: left;
+}
+.biao-main > .b_left > img {
+  display: block;
+  width: 560px;
+  height: 560px;
+}
+.biao-main > .b_right {
+  width: 600px;
+  height: 846px;
+  margin-left: 20px;
+  float: right;
+}
+.biao-main > .b_right > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #212121;
+}
+.biao-main > .b_right > .p1 {
+  color: #b0b0b0;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  line-height: 1.5;
+}
+.biao-main > .b_right > .p2 {
+  color: #ff6700;
+  margin-top: 14px;
+}
+.biao-main > .b_right > .p3 {
+  font-size: 18px;
+  line-height: 42px;
+  color: #ff6700;
+}
+.biao-main > .b_right > .line {
+  border-bottom: 1px solid #e0e0e0;
+}
+.biao-main > .b_right > .adress {
+  margin-top: 20px;
+  padding: 30px 291px 30px 50px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  display: flex;
+}
+.biao-main > .b_right > .adress > img {
+  width: 20px;
+  height: 20px;
+}
+.biao-main > .b_right > .adress > .info > .xiu {
+  color: #ff6700 !important;
+}
+.biao-main > .b_right > .chos {
+  margin: 20px 0 30px;
+  width: 600px;
+  height: 135px;
+}
+.biao-main > .b_right > .chos > h3 {
+  font-size: 18px;
+  line-height: 30px;
+}
+.biao-main > .b_right > .chos > ul {
+  width: 600px;
+  height: 108px;
+}
+.biao-main > .b_right > .chos > ul > .ng {
+  margin-right: 16px;
+}
+.biao-main > .b_right > .chos > ul > li {
+  margin-top: 10px;
+  line-height: 42px;
+  height: 42px;
+  position: relative;
+  border: 1px solid #e0e0e0;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  float: left;
+  width: 292px;
+  font-size: 16px;
+  text-align: center;
+}
+.biao-main > .b_right > .chos > ul > li:hover {
+  border-color: #ff6700;
+  color: #ff6700;
+}
+.biao-main > .b_right .car {
+  margin: 10px 0 20px 0;
+  width: 600px;
+  height: 55px;
+  display: flex;
+  text-align: center;
+}
+.biao-main > .b_right .car .yes {
+  width: 298px;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  background: #ff6700;
+  border-color: #ff6700;
+  color: #fff;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.biao-main > .b_right .car .like {
+  width: 140px;
+  height: 52px;
+  line-height: 52px;
+  border: 1px solid #b0b0b0;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #b0b0b0;
+  color: #fff;
+}

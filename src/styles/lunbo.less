@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#wrapper {
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+
+    .menu {
+        top: -20px;
+    }
+
+    .menu2 {
+        top: -62px;
+    }
+
+    .menu3 {
+        top: -104px;
+    }
+
+    .menu4 {
+        top: -146px;
+    }
+
+    .menu5 {
+        top: -188px;
+    }
+
+    .menu6 {
+        top: -230px;
+    }
+
+    .menu7 {
+        top: -272px;
+    }
+
+    .menu8 {
+        top: -314px;
+    }
+
+    .menu9 {
+        top: -356px;
+    }
+
+    .menu10 {
+        top: -398px;
+    }
+
+    .menu,
+    .menu2,
+    .menu3,
+    .menu4,
+    .menu5,
+    .menu6,
+    .menu7,
+    .menu8,
+    .menu9,
+    .menu10 {
+        width: 992px;
+        height: 460px;
+        background-color: #fff;
+        position: absolute;
+        left: 234px;
+        z-index: 10;
+        display: none;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+
+        >ul {
+            margin-top: 20px;
+
+            >li {
+                position: relative;
+                float: left;
+                width: 206px;
+                height: 76px;
+                margin-left: 41px;
+
+                img {
+
+                    margin-right: 12px;
+                    vertical-align: middle;
+                    width: 40px;
+                    height: 40px;
+                }
+
+                span {
+                    line-height: 40px;
+                    overflow: hidden;
+                    color: #333;
+                }
+            }
+        }
+    }
+
+    .menu3,
+    .menu5,
+    .menu6,
+    .menu8,
+    .menu10 {
+        width: 795px;
+    }
+
+    .menu7 {
+        width: 530px;
+    }
+
+    .banner {
+        width: 1226px;
+        height: 460px;
+        margin: 0 auto;
+        position: absolute;
+        overflow: hidden;
+
+
+
+        .imgList {
+            position: absolute;
+
+            li {
+                display: none;
+                width: 1226px;
+                height: 460px;
+            }
+
+            .imgOn {
+                display: block;
+            }
+
+            >img {
+                width: 1226px;
+                height: 460px;
+            }
+        }
+
+        >span {
+            position: absolute;
+            font-size: 3em;
+            cursor: pointer;
+            top: 47%;
+            user-select: none;
+            color: #e6dbd4;
+            padding: 10px 3px;
+            font-weight: 100;
+
+            &:hover {
+                background-color: rgb(140, 148, 145);
+            }
+        }
+    }
+
+    .lunli {
+        position: absolute;
+        z-index: 100;
+        width: 234px;
+        height: 460px;
+        border: 0;
+        color: #fff;
+        background: rgba(105, 101, 101, .6);
+        padding: 20px 0;
+
+        >li {
+            position: relative;
+            display: block;
+            padding-left: 30px;
+            height: 42px;
+            line-height: 42px;
+
+            &:hover {
+                background-color: #ff6700;
+            }
+
+            span {
+                display: block;
+                line-height: 42px;
+                margin-right: 20px;
+            }
+
+        }
+    }
+}
+
+.banner>span:last-of-type {
+    right: 0;
+}
+
+.banner>span:first-of-type {
+    left: 234px;
+}
+
+.indexList {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    z-index: 30;
+}
+
+.indexList li {
+    float: left;
+    margin-right: 5px;
+    padding: 2px 4px;
+    border-radius: 50%;
+    background: rgb(218, 208, 208);
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+.indexList .indexOn {
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#wrapper>.lunli .li1:hover>.menu {
+    display: block;
+}
+
+#wrapper>.lunli .li2:hover>.menu2 {
+    display: block;
+}
+
+#wrapper>.lunli .li3:hover>.menu3 {
+    display: block;
+}
+
+#wrapper>.lunli .li4:hover>.menu4 {
+    display: block;
+}
+
+#wrapper>.lunli .li5:hover>.menu5 {
+    display: block;
+}
+
+#wrapper>.lunli .li6:hover>.menu6 {
+    display: block;
+}
+
+#wrapper>.lunli .li7:hover>.menu7 {
+    display: block;
+}
+
+#wrapper>.lunli .li8:hover>.menu8 {
+    display: block;
+}
+
+#wrapper>.lunli .li9:hover>.menu9 {
+    display: block;
+}
+
+#wrapper>.lunli .li10:hover>.menu10 {
+    display: block;
+}

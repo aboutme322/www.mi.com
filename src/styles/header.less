@@ -1,0 +1,152 @@
+@charset 'utf-8';
+
+header {
+    >.contain {
+        width: 1226px;
+        height: 100px;
+        margin: 0 auto;
+
+        .head-logo>img {
+            width: 56px;
+            height: 56px;
+            margin-top: 22px;
+
+        }
+
+        >ul {
+            padding-left: 150px;
+
+            >nav {
+                float: left;
+                >.list {
+                    >:nth-child(2){
+                        width: 95px !important;
+                    }
+                    >:nth-child(3){
+                        width: 60px !important;
+                    }
+                    >:nth-child(4){
+                        width: 70px !important;
+                    }
+                    >:nth-child(5){
+                        width: 60px !important;
+                    }
+                    >:nth-child(6){
+                        width: 70px !important;
+                    }
+                    >:nth-child(7){
+                        width: 80px !important;
+                    }
+                    >:nth-child(8){
+                        width: 60px !important;
+                    }
+                    >:nth-child(9){
+                        width: 60px !important;
+                    }
+                }
+                .list {
+                    float: left;
+
+                    >.item {
+                        text-align: center;
+                        float: left;
+                        font-size: 16px;
+                        line-height: 100px;
+                        cursor: pointer;
+                        >.sub_list{
+                            display: none;
+                            position: absolute;
+                            width: 100%;
+                            height: 220px;
+                            background-color: #fff;
+                            top: 140px;
+                            z-index: 200;
+                            margin-left: -50%;
+                            left: 50%;
+                            border-top: 1px solid rgb(197, 172, 172);
+                            border-bottom: 1px solid rgb(197, 172, 172);
+                            >ul{
+                                width: 1226px;
+                                height: 220px;
+                                margin: 0 auto;
+                                padding-left: 40px;
+                                display: flex;
+                                font-size: 14px;
+                                >span{
+                                    display: block;
+                                    height: 80px;
+                                    width: 1px;
+                                    background: rgb(197, 172, 172);
+                                    margin:30px 15px 0;
+                                }
+                                >li{
+                                    float: left;
+                                    margin-left: 20px;
+                                    width: 170px;
+                                    height: 200px;
+                                    line-height: 20px !important;
+                                    >img{
+                                        display: block;
+                                        width: 130px;
+                                        height: 80px;
+                                        margin: 30px auto;
+                                    }
+                                    >.price{
+                                        color: red;
+                                    }
+                                }
+                                >.not{
+                                    >img{
+                                        border: 0 !important;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+
+            }
+
+            form {
+                margin-top: 25px;
+
+                .inp-se {
+                    width: 245px;
+                    height: 50px;
+                    line-height: 50px;
+                    color: rgb(59, 97, 84);
+                }
+
+                .inp-bt {
+                    width: 52px;
+                    height: 50px;
+                    font-size: 17px;
+                    font-weight: 100;
+                    border-bottom: 1px solid rgb(59, 97, 84);
+                    border-right: 1px solid rgb(59, 97, 84);
+                    border-top: 1px solid rgb(59, 97, 84);
+                    padding-left: 18px;
+
+                    span {
+                        margin: auto;
+                        line-height: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.red li {
+    background: red;
+}
+
+.blue li {
+    background: blue;
+}
+
+.green li {
+    background: green;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米帐号 -注册</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/account.css">
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <div class="main">
+            <div class="wen"></div>
+            <div class="logo">
+                <a href="#" class="img"></a>
+            </div>
+            <div class="title">注册小米账号</div>
+
+            <div class="middle">
+                <div class="regbox">
+                    <h4>国家/地区</h4>
+                    <div class="listwrap">
+                        <div class="tits">
+                            <p>中国</p>
+                            <div class="icon_cirarr"></div>
+                        </div>
+                        <div class="yic">
+                            <input type="text">
+                            <li>阿富汗</li>
+                            <li>撒比娅</li>
+                            <li>梵蒂冈</li>
+                            <li>奥布里亚</li>
+                            <li>尼泊尔</li>
+                            <li>伊拉克</li>
+                            <li>巴基斯坦</li>
+                            <li>德克</li>
+                            <li>英伦</li>
+                            <li>澳大利亚</li>
+                            <li>大西洋</li>
+                            <li>冰岛</li>
+                            <li>哥伦布</li>
+                        </div>
+                        <div class="dang">成功注册帐号后，国家/地区将不能被修改</div>
+
+                        <h4>手机号码</h4>
+                        <div class="inp">
+                            <label class="labelbox err_label" for="">
+                                <div class="cen">
+                                    <p class="P86">+86</p>
+                                    <i class="icon_arrow"></i>
+                                </div>
+                                <input type="tel" class="phone" data-type="PH" placeholder="请输入手机号码">
+                            </label>
+                        </div>
+                        <div class="dis_box1">
+                            <em class="icon_error"></em>
+                            <span>手机号码格式错误</span>
+                        </div>
+                        <div class="dis_box2">
+                            <em class="icon_error"></em>
+                            <span>请输入手机号码</span>
+                        </div>
+
+                        <div class="fixed_bot">
+                            <input class="btn332" data-to="phone-step2" type="submit" value="立即注册">
+                            <div style="display:none" class="other_register_area">
+                                <input class="btn332 btn_reg_2 change-view" data-to="EMAIL" type="button" value="用邮箱注册">
+                                <div class="facebook_area"><a class="btn332 btn_reg_2 box_center sns-login-facebook"
+                                        href="https://account.xiaomi.com/pass/sns/login/auth?appid=222161937813280&amp;callback=http%3A%2F%2Forder.mi.com%2Flogin%2Fcallback&amp;sid=mi_eshop"><i
+                                            class="iconfacebook"></i>使用Facebook登录</a></div>
+                            </div>
+                            <img style="display:none;" src="/pass/ajax/tick?biz=register&amp;type=web&amp;step=0">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="msg">已阅读并同意：小米
+                    <span>用户协议</span>和<span>隐私政策</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="foot">
+            <li>简体 | 繁体 | English | 常见问题</li>
+        </div>
+        <div class="jing">
+            小米公司版权所有-京ICP备10046444-
+            <img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png">
+            京公网安备11010802020134号-京ICP证110507号
+        </div>
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script>
+        $(function () {
+            $('.tits').on('click', function () {
+                if ($('.yic').hasClass('active')) {
+                    $('.yic').removeClass('active');
+                } else {
+                    $('.yic').addClass('active');
+                }
+            })
+        })
+    </script>
+    <script>
+        $(".phone").focusout(function () {
+            var phone = $(".phone").val();
+            if (phone == 0) {
+                $('.dis_box1').removeClass('active');
+                $('.dis_box2').addClass('active');
+            }else if (!(/^1[3-9]\d{9}$/.test(phone))) {
+                $('.dis_box2').removeClass('active');
+                $('.dis_box1').addClass('active');
+            }else{
+                $('.dis_box1').removeClass('active');
+                $('.dis_box2').removeClass('active');
+            }
+        });
+    </script>
+</body>
+
+</html>

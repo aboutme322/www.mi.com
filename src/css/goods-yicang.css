@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.niup:hover > .lunli {
+  display: block !important;
+}
+.niup {
+  position: relative;
+}
+.niup .lunli {
+  position: absolute;
+  left: -100px;
+  z-index: 100;
+  width: 234px;
+  height: 460px;
+  border: 1px solid #ff6700;
+  color: #333;
+  background: fff;
+  display: none;
+  padding-top: 20px;
+}
+.niup .lunli > li {
+  padding-left: 20px;
+  width: 234px;
+  left: -134px;
+  position: relative;
+  display: block;
+  height: 42px;
+  line-height: 42px;
+}
+.niup .lunli > li:hover {
+  color: #fff;
+  background-color: #ff6700;
+}
+.niup .lunli > li span {
+  display: block;
+  line-height: 42px;
+  margin-right: 20px;
+}
+.niup .menu {
+  top: -21px;
+}
+.niup .menu2 {
+  top: -63px;
+}
+.niup .menu3 {
+  top: -105px;
+}
+.niup .menu4 {
+  top: -147px;
+}
+.niup .menu5 {
+  top: -188px;
+}
+.niup .menu6 {
+  top: -231px;
+}
+.niup .menu7 {
+  top: -273px;
+}
+.niup .menu8 {
+  top: -315px;
+}
+.niup .menu9 {
+  top: -357px;
+}
+.niup .menu10 {
+  top: -399px;
+}
+.niup .menu,
+.niup .menu2,
+.niup .menu3,
+.niup .menu4,
+.niup .menu5,
+.niup .menu6,
+.niup .menu7,
+.niup .menu8,
+.niup .menu9,
+.niup .menu10 {
+  width: 992px;
+  height: 460px;
+  background-color: #fff;
+  position: absolute;
+  left: 234px;
+  z-index: 10;
+  display: none;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+}
+.niup .menu > ul,
+.niup .menu2 > ul,
+.niup .menu3 > ul,
+.niup .menu4 > ul,
+.niup .menu5 > ul,
+.niup .menu6 > ul,
+.niup .menu7 > ul,
+.niup .menu8 > ul,
+.niup .menu9 > ul,
+.niup .menu10 > ul {
+  margin-top: 20px;
+}
+.niup .menu > ul > li,
+.niup .menu2 > ul > li,
+.niup .menu3 > ul > li,
+.niup .menu4 > ul > li,
+.niup .menu5 > ul > li,
+.niup .menu6 > ul > li,
+.niup .menu7 > ul > li,
+.niup .menu8 > ul > li,
+.niup .menu9 > ul > li,
+.niup .menu10 > ul > li {
+  position: relative;
+  float: left;
+  width: 209px;
+  height: 76px;
+  margin-left: -6px;
+}
+.niup .menu > ul > li img,
+.niup .menu2 > ul > li img,
+.niup .menu3 > ul > li img,
+.niup .menu4 > ul > li img,
+.niup .menu5 > ul > li img,
+.niup .menu6 > ul > li img,
+.niup .menu7 > ul > li img,
+.niup .menu8 > ul > li img,
+.niup .menu9 > ul > li img,
+.niup .menu10 > ul > li img {
+  margin-right: 12px;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+.niup .menu > ul > li span,
+.niup .menu2 > ul > li span,
+.niup .menu3 > ul > li span,
+.niup .menu4 > ul > li span,
+.niup .menu5 > ul > li span,
+.niup .menu6 > ul > li span,
+.niup .menu7 > ul > li span,
+.niup .menu8 > ul > li span,
+.niup .menu9 > ul > li span,
+.niup .menu10 > ul > li span {
+  line-height: 40px;
+  overflow: hidden;
+  color: #333;
+}
+.niup .menu3,
+.niup .menu5,
+.niup .menu6,
+.niup .menu8,
+.niup .menu10 {
+  width: 795px;
+}
+.niup .menu7 {
+  width: 530px;
+}
+.niup > .lunli .li1:hover > .menu {
+  display: block;
+}
+.niup > .lunli .li2:hover > .menu2 {
+  display: block;
+}
+.niup > .lunli .li3:hover > .menu3 {
+  display: block;
+}
+.niup > .lunli .li4:hover > .menu4 {
+  display: block;
+}
+.niup > .lunli .li5:hover > .menu5 {
+  display: block;
+}
+.niup > .lunli .li6:hover > .menu6 {
+  display: block;
+}
+.niup > .lunli .li7:hover > .menu7 {
+  display: block;
+}
+.niup > .lunli .li8:hover > .menu8 {
+  display: block;
+}
+.niup > .lunli .li9:hover > .menu9 {
+  display: block;
+}
+.niup > .lunli .li10:hover > .menu10 {
+  display: block;
+}
+.biao {
+  height: 2000px;
+}
